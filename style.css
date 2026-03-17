@@ -1,0 +1,117 @@
+/* Styling The body */
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    background-color: antiquewhite;
+}
+
+/* Styling the navigation bar */
+
+.navbar {
+    background-color: #333;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  transform: scale(1.1);
+  color: red;  
+}
+
+/* Styling the main content */
+
+.main-content {
+    padding-top: 5em;
+    text-align: center;
+}
+
+section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#home p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+/* Styling The Portfolio container */
+#portfolio, .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+#portfolio, .portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.portfolio-item h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.portfolio-item p {
+    margin-bottom: 0.5em;
+    color: #666;
+}
+
+#portfolio, .portfolio-item img {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio, .portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Styling the Footer */
+
+#footer {
+    background-color: #222;
+    padding: 2em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer p {
+    color: #fff;
+}
