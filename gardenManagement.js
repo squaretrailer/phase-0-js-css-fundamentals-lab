@@ -9,7 +9,7 @@ else {
     console.log("Watering off", temperature);
 }
 
-if (timeOfDay == "evening"  || "night") {
+if (timeOfDay == "evening"  || timeOfDay == "night") {
 console.log("Lights on");
 }
 else {
